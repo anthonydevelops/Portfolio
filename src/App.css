@@ -10,10 +10,8 @@ html {
 }
 
 .main {
-  /* position: relative; */
   background: url("images/slightly-hazy-forest.jpg");
   height: 100vh;
-  /* background-attachment: fixed; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

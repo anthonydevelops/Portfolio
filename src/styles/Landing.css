@@ -1,8 +1,15 @@
+/* Overlay content */
 .caption {
   color: white;
   text-align: center;
-  padding-top: 20%;
-  padding-bottom: 20%;
+  padding: 20% 10%;
+}
+
+/* Breakpoint for phones to reduce l/r padding */
+@media (max-width: 767.98px) {
+  .caption {
+    padding: 20% 0;
+  }
 }
 
 #name {
@@ -16,6 +23,7 @@
   letter-spacing: 0.2em;
 }
 
+/* Link & brand styles */
 a:any-link {
   color: white;
 }
@@ -26,6 +34,5 @@ a:any-link:hover {
 
 .brand-icons {
   text-align: center;
-
   padding: 2vh 1vw;
 }
