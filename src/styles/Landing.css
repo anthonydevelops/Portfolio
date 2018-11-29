@@ -25,6 +25,7 @@ a:any-link:hover {
 }
 
 .brand-icons {
-  padding-right: 3vw;
-  padding-top: 3%;
+  text-align: center;
+
+  padding: 2vh 1vw;
 }
