@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import NavBar from "./components/Navbar";
 import Landing from "./components/Landing";
+import About from "./components/About";
 
 export default class App extends React.Component {
   render() {
@@ -15,6 +16,11 @@ export default class App extends React.Component {
               <Switch>
                 <Route exact path="/" component={Landing} />
               </Switch>
+            </div>
+          </div>
+          <div className="about">
+            <div className="container">
+              <About />
             </div>
           </div>
         </div>
