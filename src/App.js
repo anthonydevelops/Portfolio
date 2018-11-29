@@ -1,23 +1,23 @@
 import React from "react";
-import NavBar from "./components/Navbar";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
+import NavBar from "./components/Navbar";
+import Landing from "./components/Landing";
 
 export default class App extends React.Component {
   render() {
     return (
       <Router>
-        <div className="container">
-          <NavBar />
+        <div>
+          <div className="main">
+            <div className="container">
+              <NavBar />
+              <Switch>
+                <Route exact path="/" component={Landing} />
+              </Switch>
+            </div>
+          </div>
         </div>
-        {/* <div>
-          <Switch>
-            <Route exact path="/" component={Planner} />
-            <Route path="/calendar" component={Calendar} />
-            <Route path="/grades" component={Grades} />
-            <Route path="/progress" component={Progress} />
-          </Switch>
-        </div> */}
       </Router>
     );
   }

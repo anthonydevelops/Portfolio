@@ -1,0 +1,30 @@
+.caption {
+  color: white;
+  text-align: center;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+#name {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1em;
+}
+
+#opener {
+  text-transform: lowercase;
+  letter-spacing: 0.2em;
+}
+
+a:any-link {
+  color: white;
+}
+
+a:any-link:hover {
+  color: #99f2c8;
+}
+
+.brand-icons {
+  padding-right: 3vw;
+  padding-top: 3%;
+}

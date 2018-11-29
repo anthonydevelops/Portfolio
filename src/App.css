@@ -1,4 +1,19 @@
 * {
+  font-family: "Chakra Petch", sans-serif;
+}
+
+body,
+html {
+  height: 100%;
   margin: 0;
-  padding: 0;
+}
+
+.main {
+  /* position: relative; */
+  background: url("images/slightly-hazy-forest.jpg");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
