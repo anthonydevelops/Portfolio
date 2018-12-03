@@ -23,7 +23,7 @@ export default class App extends React.Component {
               <About />
             </Container>
           </div>
-          <div className="container-fluid education no-gutters">
+          <div className="container-fluid software no-gutters">
             <Container>
               <Software />
             </Container>
