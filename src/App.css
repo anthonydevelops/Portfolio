@@ -10,7 +10,7 @@ html {
 
 .main {
   background-image: url("images/slightly-hazy-forest.jpg");
-  position: fixed;
+  position: relative;
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -19,7 +19,7 @@ html {
 
 .about {
   height: 70vh;
-  position: fixed;
+  position: relative;
 }
 
 .education {
@@ -27,7 +27,7 @@ html {
   padding: 5vh 0;
   background-color: #282828;
   color: white;
-  position: fixed;
+  position: relative;
 }
 
 @media (max-width: 767.98px) {
