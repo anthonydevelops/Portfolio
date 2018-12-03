@@ -12,18 +12,18 @@ export default class App extends React.Component {
     return (
       <Router>
         <div>
-          <div className="container-fluid main">
+          <div className="container-fluid main no-gutters">
             <div className="container">
               <NavBar />
               <Landing />
             </div>
           </div>
-          <div className="container-fluid about">
+          <div className="container-fluid about no-gutters">
             <div className="container">
               <About />
             </div>
           </div>
-          <div className="container-fluid education">
+          <div className="container-fluid education no-gutters">
             <Container className="h-100">
               <Software />
             </Container>

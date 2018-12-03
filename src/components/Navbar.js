@@ -29,7 +29,13 @@ export default class NavBar extends React.Component {
   render() {
     return (
       <div>
-        <Navbar color="faded" dark expand="md" role="navigation">
+        <Navbar
+          className="sticky-top"
+          color="faded"
+          dark
+          expand="md"
+          role="navigation"
+        >
           <NavbarBrand href="/">Anthony Campos</NavbarBrand>
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
           <Collapse isOpen={!this.state.collapsed} navbar>
