@@ -16,13 +16,19 @@ export default class Landing extends React.Component {
             </h4>
           </span>
           <br />
-          <a href="https://github.com/anthonydevelops">
+          <a className="landing-link" href="https://github.com/anthonydevelops">
             <i class="brand-icons fab fa-github-square fa-3x" />
           </a>
-          <a href="https://twitter.com/anthonydevelops">
+          <a
+            className="landing-link"
+            href="https://twitter.com/anthonydevelops"
+          >
             <i class="brand-icons fab fa-linkedin fa-3x" />
           </a>
-          <a href="https://www.linkedin.com/in/anthonyacampos/">
+          <a
+            className="landing-link"
+            href="https://www.linkedin.com/in/anthonyacampos/"
+          >
             <i class="brand-icons fab fa-twitter-square fa-3x" />
           </a>
         </div>

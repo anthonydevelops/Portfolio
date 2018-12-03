@@ -4,28 +4,29 @@ import "./App.css";
 import NavBar from "./components/Navbar";
 import Landing from "./components/Landing";
 import About from "./components/About";
-import Education from "./components/Education";
+import Software from "./components/Education";
+import { Container } from "reactstrap";
 
 export default class App extends React.Component {
   render() {
     return (
       <Router>
         <div>
-          <div className="main">
+          <div className="container-fluid main">
             <div className="container">
               <NavBar />
               <Landing />
             </div>
           </div>
-          <div className="about">
+          <div className="container-fluid about">
             <div className="container">
               <About />
             </div>
           </div>
-          <div className="education">
-            <div className="container">
-              <Education />
-            </div>
+          <div className="container-fluid education">
+            <Container className="h-100">
+              <Software />
+            </Container>
           </div>
         </div>
       </Router>

@@ -18,9 +18,19 @@ html {
 }
 
 .about {
-  height: 60vh;
+  height: 70vh;
 }
 
 .education {
   height: 100vh;
+  padding: 5vh 0;
+  background-color: #282828;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
 }
+
+/* @media (max-width: 767.98px) {
+  .;
+} */

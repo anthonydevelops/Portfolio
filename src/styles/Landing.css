@@ -24,11 +24,11 @@
 }
 
 /* Link & brand styles */
-a:any-link {
+.landing-link {
   color: white;
 }
 
-a:any-link:hover {
+.landing-link:hover {
   color: #99f2c8;
 }
 
