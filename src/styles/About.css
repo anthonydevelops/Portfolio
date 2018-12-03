@@ -1,5 +1,5 @@
 .about-content {
-  padding: 20vh 8vh;
+  padding: 10% 5%;
 }
 
 .photo {
@@ -24,13 +24,13 @@ img {
 }
 
 /* Breakpoint for phones to reduce l/r padding */
-@media (max-width: 767.98px) {
+@media (max-width: 575.98px) {
   .about-content {
-    padding: 5vh 0;
+    padding: 5% 0;
   }
 
   .description {
-    padding-top: 3vh;
+    padding-top: 3%;
   }
 
   #myPhoto {
@@ -40,10 +40,10 @@ img {
 
 @media (max-width: 991.98px) {
   .about-content {
-    padding: 5vh 0;
+    padding: 5% 0;
   }
 
   .description {
-    padding-top: 3vh;
+    padding-top: 3%;
   }
 }
