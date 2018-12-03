@@ -12,6 +12,7 @@
   letter-spacing: 5px;
   text-transform: uppercase;
   border-bottom: 2px solid white;
+  padding-bottom: 1%;
 }
 
 @media (max-width: 575.98px) {

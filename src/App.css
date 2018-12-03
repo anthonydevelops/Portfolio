@@ -9,7 +9,7 @@ html {
 }
 
 .main {
-  background: url("images/slightly-hazy-forest.jpg");
+  background-image: url("images/slightly-hazy-forest.jpg");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;

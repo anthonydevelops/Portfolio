@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Education.css";
+import "../styles/Software.css";
 import { Row, Col } from "reactstrap";
 
 export default class Software extends React.Component {

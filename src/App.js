@@ -4,7 +4,7 @@ import "./App.css";
 import NavBar from "./components/Navbar";
 import Landing from "./components/Landing";
 import About from "./components/About";
-import Software from "./components/Education";
+import Software from "./components/Software";
 import { Container } from "reactstrap";
 
 export default class App extends React.Component {
@@ -12,9 +12,9 @@ export default class App extends React.Component {
     return (
       <Router>
         <div>
+          <NavBar />
           <div className="container-fluid main no-gutters">
             <Container>
-              <NavBar />
               <Landing />
             </Container>
           </div>

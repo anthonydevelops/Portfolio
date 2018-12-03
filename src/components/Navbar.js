@@ -28,19 +28,25 @@ export default class NavBar extends React.Component {
   render() {
     return (
       <div>
-        <Navbar color="faded" dark expand="md" role="navigation">
+        <Navbar
+          className="fixed-top"
+          style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }}
+          dark
+          expand="md"
+          role="navigation"
+        >
           <NavbarBrand href="/">Anthony Campos</NavbarBrand>
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
           <Collapse isOpen={!this.state.collapsed} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/about">About</NavLink>
+                <NavLink href="#about">About</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/software">Software</NavLink>
+                <NavLink href="#software">Software</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/projects">Projects</NavLink>
+                <NavLink href="#projects">Projects</NavLink>
               </NavItem>
             </Nav>
           </Collapse>

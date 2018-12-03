@@ -2,13 +2,13 @@
 .caption {
   color: white;
   text-align: center;
-  padding: 20% 10%;
+  padding-top: 25%;
 }
 
 /* Breakpoint for phones to reduce l/r padding */
 @media (max-width: 767.98px) {
   .caption {
-    padding: 20% 0;
+    padding: 35% 0;
   }
 }
 

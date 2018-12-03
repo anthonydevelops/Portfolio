@@ -4,7 +4,7 @@ import "../styles/About.css";
 export default class About extends React.Component {
   render() {
     return (
-      <div className="row about-content no-gutters">
+      <div className="row about-content no-gutters" id="about">
         <div className="col-12 col-lg-4 photo">
           <img
             id="myPhoto"
