@@ -11,6 +11,13 @@
   text-align: left;
 }
 
+img {
+  position: relative;
+  transform: translateY(5%);
+  vertical-align: middle;
+  border-style: none;
+}
+
 #myPhoto {
   border-radius: 50%;
   height: 200px;

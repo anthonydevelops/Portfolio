@@ -28,6 +28,10 @@ html {
 }
 
 @media (max-width: 767.98px) {
+  .about {
+    height: 110vh;
+  }
+
   .education {
     height: 150vh;
   }

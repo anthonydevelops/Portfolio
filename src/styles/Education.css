@@ -5,3 +5,28 @@
 .lang {
   padding: 5%;
 }
+
+#software {
+  letter-spacing: 1rem;
+  text-transform: uppercase;
+}
+
+#js {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+#py {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+#em {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+#web {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}

@@ -14,13 +14,19 @@ export default class About extends React.Component {
         </div>
         <div className="col-12 col-lg-8 description">
           <p>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum."
+            Welcome! I am an aspiring full-stack developer, electronics
+            hobbyist, and a senior computer science student at University of
+            California, Santa Cruz. In the past years, I have focused on
+            understanding the web and embedded programming by working on
+            projects both in school and on my own. My goal is to become better
+            at my craft and to eventually create novel solutions that will help
+            those around me in my community. I have advanced knowledge in
+            JavaScript and Python, experience toying around with
+            microcontrollers such as Arduino or Raspberry Pi, and have built
+            various web applications such as the one you're viewing right now!
+            Additionally, I'm currently taking courses in Software Engineering,
+            Databases, and many more to follow before I graduate. I'm currently
+            applying and interviewing for various Fulltime or Internship roles.
           </p>
         </div>
       </div>
