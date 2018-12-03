@@ -22,7 +22,7 @@ export default class Landing extends React.Component {
             rel="noopener noreferrer"
             href="https://github.com/anthonydevelops"
           >
-            <i class="brand-icons fab fa-github-square fa-3x" />
+            <i className="brand-icons fab fa-github-square fa-3x" />
           </a>
           <a
             className="landing-link"
@@ -30,7 +30,7 @@ export default class Landing extends React.Component {
             rel="noopener noreferrer"
             href="https://www.linkedin.com/in/anthonyacampos/"
           >
-            <i class="brand-icons fab fa-linkedin fa-3x" />
+            <i className="brand-icons fab fa-linkedin fa-3x" />
           </a>
           <a
             className="landing-link"
@@ -38,7 +38,7 @@ export default class Landing extends React.Component {
             rel="noopener noreferrer"
             href="https://twitter.com/anthonydevelops"
           >
-            <i class="brand-icons fab fa-twitter-square fa-3x" />
+            <i className="brand-icons fab fa-twitter-square fa-3x" />
           </a>
         </div>
       </div>

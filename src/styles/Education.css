@@ -7,8 +7,20 @@
 }
 
 #software {
-  letter-spacing: 1rem;
+  text-align: left;
+  font-size: 2.5rem;
+  letter-spacing: 5px;
   text-transform: uppercase;
+  border-bottom: 2px solid white;
+}
+
+@media (max-width: 575.98px) {
+  #software {
+    padding-bottom: 5%;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+  }
 }
 
 #js {
