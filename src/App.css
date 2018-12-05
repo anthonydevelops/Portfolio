@@ -23,11 +23,18 @@ html {
   position: relative;
 }
 
-.software {
+.software,
+.projects {
   height: 100vh;
   padding: 5vh 0;
   background-color: #282828;
   color: white;
+  position: relative;
+}
+
+.projects {
+  background-color: white;
+  color: black;
   position: relative;
 }
 

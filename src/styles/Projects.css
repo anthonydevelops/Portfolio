@@ -1,0 +1,15 @@
+#project {
+  text-align: right;
+  font-size: 2.5rem;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  border-bottom: 2px solid black;
+  padding-bottom: 1%;
+}
+
+.myprojects {
+  color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: rgb(255, 0, 98);
+}
