@@ -45,12 +45,12 @@ html {
   }
 
   .software {
-    height: 140vh;
+    height: 150vh;
     overflow: hidden;
   }
 
   .projects {
-    height: 120vh;
+    height: 150vh;
     overflow: hidden;
   }
 }
