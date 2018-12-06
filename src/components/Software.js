@@ -7,7 +7,7 @@ export default class Software extends React.Component {
     return (
       <div className="edu-content">
         <div>
-          <h1 id="software">Software</h1>
+          <h1 id="soft-title">Software</h1>
         </div>
         <Row className="text-center tech">
           <Col className="lang no-gutters" xs="12" md="6">

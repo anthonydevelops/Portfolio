@@ -7,35 +7,63 @@ export default class Projects extends React.Component {
     return (
       <div className="pro-content">
         <div>
-          <h1 id="project">Projects</h1>
+          <h1 id="pro-header">Projects</h1>
         </div>
-        <Row>
-          <Col xs="12" md="6" className="myprojects">
-            <h4 style={{ textAlign: "center" }}>UCSC Courses API</h4>
+        <Row className="project-row">
+          <Col xs="12" md="4" className="myprojects">
+            <h4 className="pro-titles" style={{ textAlign: "center" }}>
+              UCSC Courses API
+            </h4>
             <p>
               An Unofficial API for UCSC that gathers all course & professor
-              data all in one repo and makes it easy to get the semi-latest
-              information.
+              data from the school search and Rate My Professor.
             </p>
-            <Button>See more</Button>
+            <div>
+              <code>Node/Express | Puppeteer | MongoDB</code>
+            </div>
           </Col>
-          <Col xs="12" md="6" className="myprojects">
-            <h4 style={{ textAlign: "center" }}>Slug Academic Organizer</h4>
+          <Col xs="12" md="4" className="myprojects">
+            <h4 className="pro-titles" style={{ textAlign: "center" }}>
+              Slug Organizer
+            </h4>
             <p>
               A web app designed to help students keep track of their
               educational goals in fulfilling GEs and Major requirements.
             </p>
-            <Button>See more</Button>
+            <div>
+              <code>React | Node/Express | MongoDB</code>
+            </div>
           </Col>
-          <Col xs="12" md="6" className="myprojects">
-            <h4 style={{ textAlign: "center" }}>URL Shortener Microservice</h4>
+          <Col xs="12" md="4" className="myprojects">
+            <h4 className="pro-titles" style={{ textAlign: "center" }}>
+              URL Shortener
+            </h4>
             <p>
               A microservice that allows the user to receive a shortened URL in
               JSON that routes to the original URL.
             </p>
-            <Button>See more</Button>
+            <div>
+              <code>Node/Express | HTML/CSS | MongoDB</code>
+            </div>
           </Col>
-          <Col md="12" className="text-center" />
+          <Col
+            xs="12"
+            className="myprojects"
+            style={{ marginTop: "5%", fontStyle: "italic" }}
+          >
+            <h4>More in the works, stay tuned!</h4>
+          </Col>
+          <Col className="pro-button">
+            <Button
+              href="https://github.com/anthonydevelops"
+              target="_blank"
+              rel="noopener noreferrer"
+              size="lg"
+              style={{ backgroundColor: "#282828" }}
+            >
+              See more
+            </Button>
+          </Col>
         </Row>
       </div>
     );

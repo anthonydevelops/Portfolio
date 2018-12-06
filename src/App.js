@@ -17,17 +17,17 @@ export default class App extends React.Component {
             <Landing />
           </Container>
         </div>
-        <div className="container-fluid about no-gutters">
+        <div id="about" className="container-fluid about no-gutters">
           <Container>
             <About />
           </Container>
         </div>
-        <div className="container-fluid software no-gutters">
+        <div id="software" className="container-fluid software no-gutters">
           <Container>
             <Software />
           </Container>
         </div>
-        <div className="container-fluid projects no-gutters">
+        <div id="projects" className="container-fluid projects no-gutters">
           <Container>
             <Projects />
           </Container>

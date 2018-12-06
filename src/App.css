@@ -45,7 +45,12 @@ html {
   }
 
   .software {
-    height: 150vh;
+    height: 140vh;
+    overflow: hidden;
+  }
+
+  .projects {
+    height: 120vh;
     overflow: hidden;
   }
 }

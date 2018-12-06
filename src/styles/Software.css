@@ -6,7 +6,7 @@
   padding: 5%;
 }
 
-#software {
+#soft-title {
   text-align: left;
   font-size: 2.5rem;
   letter-spacing: 5px;
@@ -16,7 +16,7 @@
 }
 
 @media (max-width: 575.98px) {
-  #software {
+  #soft-title {
     padding-bottom: 5%;
     font-size: 2em;
     text-align: center;
