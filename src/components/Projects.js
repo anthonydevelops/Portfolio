@@ -12,14 +12,16 @@ export default class Projects extends React.Component {
         <Row className="project-row">
           <Col xs="12" md="4" className="myprojects">
             <h4 className="pro-titles" style={{ textAlign: "center" }}>
-              UCSC Courses API
+              Ligato Osseus
             </h4>
             <p>
-              An Unofficial API for UCSC that gathers all course & professor
-              data from the school search and Rate My Professor.
+              Implementing a full-stack web application on top of CN-Infra, a
+              plugin life-cycle management agent, that allows for the user to
+              configure various plugin integrations and generate Go template
+              code that processes the plugins to work together.
             </p>
-            <div>
-              <code>Node/Express | Puppeteer | MongoDB</code>
+            <div style={{ textAlign: "center" }}>
+              <code>Golang | React | Docker</code>
             </div>
           </Col>
           <Col xs="12" md="4" className="myprojects">
@@ -27,29 +29,37 @@ export default class Projects extends React.Component {
               Slug Organizer
             </h4>
             <p>
-              A web app designed to help students keep track of their
-              educational goals in fulfilling GEs and Major requirements.
+              Designed a full-stack web application for students at UC Santa
+              Cruz, which allows for quarterly/yearly planning, class
+              information, and grade tracking. Used Puppeteer for scraping 1000+
+              class pages and built a REST API to handle CRUD operations.
             </p>
-            <div>
+            <div style={{ textAlign: "center" }}>
               <code>React | Node/Express | MongoDB</code>
             </div>
           </Col>
           <Col xs="12" md="4" className="myprojects">
             <h4 className="pro-titles" style={{ textAlign: "center" }}>
-              URL Shortener
+              UCSC Jobs API
             </h4>
             <p>
-              A microservice that allows the user to receive a shortened URL in
-              JSON that routes to the original URL.
+              Built a REST API for University of California, Santa Cruz that
+              gathers all the latest job listings on campus and allows for
+              queries to distinguish from Job ID, workstudy, and non-workstudy.
             </p>
-            <div>
-              <code>Node/Express | HTML/CSS | MongoDB</code>
+            <br />
+            <div style={{ textAlign: "center" }}>
+              <code>Python | Golang</code>
             </div>
           </Col>
           <Col
             xs="12"
             className="myprojects"
-            style={{ marginTop: "5%", fontStyle: "italic" }}
+            style={{
+              marginTop: "5%",
+              fontStyle: "italic",
+              textAlign: "center"
+            }}
           >
             <h4>More in the works, stay tuned!</h4>
           </Col>

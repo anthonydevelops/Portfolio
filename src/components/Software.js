@@ -18,25 +18,25 @@ export default class Software extends React.Component {
             </h5>
           </Col>
           <Col className="lang no-gutters" xs="12" md="6">
-            <h3 id="py">Python</h3>
+            <h3 id="py">Golang</h3>
             <h5>
-              One year of experience writing various scripts and implementing
-              back-end processes for web applications.
+              One year of experience implementing back-end REST-ful API's and
+              gRPC servers.
             </h5>
           </Col>
           <Col className="lang no-gutters" xs="12" md="6">
-            <h3 id="em">Embedded</h3>
+            <h3 id="em">Networking</h3>
             <h5>
-              One year of microcontroller programming and design for Arduino and
-              Raspberry Pi to make fun hobby projects and gifts.
+              Two years of experience in Computer Networks, Network Programming,
+              and Advanced Computer Networks through coursework and projects.
             </h5>
           </Col>
           <Col className="lang no-gutters" xs="12" md="6">
             <h3 id="web">Web</h3>
             <h5>
-              Two years of working on various web applications for school and as
-              fun side projects. Experience & knowledge in front-end and
-              back-end processes and workflow.
+              Two years of experience working on various web applications for
+              school and as fun side projects. Experience & knowledge in
+              front-end and back-end processes and workflow.
             </h5>
           </Col>
         </Row>
