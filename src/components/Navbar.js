@@ -35,7 +35,7 @@ export default class NavBar extends React.Component {
           expand="md"
           role="navigation"
         >
-          <NavbarBrand href="/">Anthony Campos</NavbarBrand>
+          <NavbarBrand href="/portfolio">Anthony Campos</NavbarBrand>
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
           <Collapse isOpen={!this.state.collapsed} navbar>
             <Nav className="ml-auto" navbar>
