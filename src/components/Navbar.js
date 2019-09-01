@@ -34,7 +34,7 @@ export default class NavBar extends React.Component {
         <Navbar
           className="fixed-top"
           id="nav-main"
-          style={{ backgroundColor: "#282828" }}
+          style={{ backgroundColor: "#201116" }}
           dark
           expand="md"
           role="navigation"
@@ -54,15 +54,15 @@ export default class NavBar extends React.Component {
               </NavItem>
               <NavItem id="resume">
                 <Button
-                  className="landing-link"
+                  id="resume-link"
                   target="_blank"
                   rel="noopener noreferrer"
                   href={Resume}
-                  color="warning"
+                  style={{ backgroundColor: "#fd94b3", border: "1px solid #fd94b3", color: "black" }}
                   size="md"
                 >
                   <i className="solid fas fa-file-pdf fa-1x" /> Resume
-          </Button>
+                </Button>
               </NavItem>
             </Nav>
           </Collapse>

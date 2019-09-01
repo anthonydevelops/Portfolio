@@ -8,7 +8,7 @@ export default class About extends React.Component {
         <div className="col-12 col-lg-4 photo">
           <img
             id="myPhoto"
-            src={require("../images/profile-photo.jpg")}
+            src={require("../assets/profile-photo.jpeg")}
             alt="Anthony"
           />
         </div>

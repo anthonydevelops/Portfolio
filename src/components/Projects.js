@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Row, Col } from "reactstrap";
+import { Row, Col } from "reactstrap";
 import "../styles/Projects.css";
 
 export default class Projects extends React.Component {
@@ -11,7 +11,7 @@ export default class Projects extends React.Component {
         </div>
         <Row className="project-row">
           <Col xs="12" md="4" className="myprojects">
-            <h4 className="pro-titles" style={{ textAlign: "center" }}>
+            <h4 className="pro-titles">
               <a href="https://github.com/anthonydevelops/osseus">Osseus</a>
             </h4>
             <p>
@@ -25,7 +25,7 @@ export default class Projects extends React.Component {
             </div>
           </Col>
           <Col xs="12" md="4" className="myprojects">
-            <h4 className="pro-titles" style={{ textAlign: "center" }}>
+            <h4 className="pro-titles">
               <a href="https://github.com/chtzou/Slug-Academic-Organizer">Slug Organizer</a>
             </h4>
             <p>
@@ -39,7 +39,7 @@ export default class Projects extends React.Component {
             </div>
           </Col>
           <Col xs="12" md="4" className="myprojects">
-            <h4 className="pro-titles" style={{ textAlign: "center" }}>
+            <h4 className="pro-titles">
               <a href="https://github.com/anthonydevelops/ucsc-jobs-api">UCSC Jobs API</a>
             </h4>
             <p>

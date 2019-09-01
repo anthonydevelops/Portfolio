@@ -1,7 +1,5 @@
 import React from "react";
 import "../styles/Landing.css";
-import Resume from '../assets/resume.pdf'
-import { Button } from 'reactstrap'
 
 export default class Landing extends React.Component {
   render() {
@@ -12,9 +10,9 @@ export default class Landing extends React.Component {
         </span>
         <span id="opener">
           <h4>
-            A software hobbyist passionate about web technologies,
-            electronics, and open source
-            </h4>
+            A freelance web developer passionate about software architecture,
+            web security, and developer productivity
+          </h4>
         </span>
         <br />
         <a

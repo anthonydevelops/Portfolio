@@ -7,16 +7,16 @@
   font-size: 2.5rem;
   letter-spacing: 5px;
   text-transform: uppercase;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid white;
   padding-bottom: 1%;
 }
 
 .myprojects {
-  color: black;
+  color: white;
   background-color: transparent;
   padding: 0 20px !important;
   margin: 10px auto;
-  text-align: left;
+  text-align: center;
 }
 
 .pro-titles {
@@ -24,6 +24,16 @@
   letter-spacing: 5px;
   font-size: 1.5em;
   padding-bottom: 3%;
+}
+
+.pro-titles > a {
+  color: #fd94b3;
+  text-decoration: none;
+}
+
+.pro-titles > a:hover {
+  color: white;
+  text-decoration: none;
 }
 
 .project-row {
