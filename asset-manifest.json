@@ -1,17 +1,20 @@
 {
-  "main.css": "/portfolio/static/css/main.1fb3cc3d.chunk.css",
-  "main.js": "/portfolio/static/js/main.01b739a7.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.01b739a7.chunk.js.map",
-  "static/css/1.f191d85c.chunk.css": "/portfolio/static/css/1.f191d85c.chunk.css",
-  "static/js/1.217e01d9.chunk.js": "/portfolio/static/js/1.217e01d9.chunk.js",
-  "static/js/1.217e01d9.chunk.js.map": "/portfolio/static/js/1.217e01d9.chunk.js.map",
-  "runtime~main.js": "/portfolio/static/js/runtime~main.ee2a1003.js",
-  "runtime~main.js.map": "/portfolio/static/js/runtime~main.ee2a1003.js.map",
-  "static/css/1.f191d85c.chunk.css.map": "/portfolio/static/css/1.f191d85c.chunk.css.map",
-  "static/media/profile-photo.jpg": "/portfolio/static/media/profile-photo.d55cc23e.jpg",
-  "static/media/App.css": "/portfolio/static/media/slightly-hazy-forest.a9683aeb.jpg",
-  "static/css/main.1fb3cc3d.chunk.css.map": "/portfolio/static/css/main.1fb3cc3d.chunk.css.map",
-  "index.html": "/portfolio/index.html",
-  "precache-manifest.8bdbdda66e89029c91f0630b8f9a0fb7.js": "/portfolio/precache-manifest.8bdbdda66e89029c91f0630b8f9a0fb7.js",
-  "service-worker.js": "/portfolio/service-worker.js"
+  "files": {
+    "main.css": "/portfolio/static/css/main.16bb4bd1.chunk.css",
+    "main.js": "/portfolio/static/js/main.5458402e.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.5458402e.chunk.js.map",
+    "runtime~main.js": "/portfolio/static/js/runtime~main.f7d4dbe8.js",
+    "runtime~main.js.map": "/portfolio/static/js/runtime~main.f7d4dbe8.js.map",
+    "static/css/2.1e66eaca.chunk.css": "/portfolio/static/css/2.1e66eaca.chunk.css",
+    "static/js/2.796ce7b1.chunk.js": "/portfolio/static/js/2.796ce7b1.chunk.js",
+    "static/js/2.796ce7b1.chunk.js.map": "/portfolio/static/js/2.796ce7b1.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.cef2105f7ad25b0e7cc3eac419f2a74d.js": "/portfolio/precache-manifest.cef2105f7ad25b0e7cc3eac419f2a74d.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/2.1e66eaca.chunk.css.map": "/portfolio/static/css/2.1e66eaca.chunk.css.map",
+    "static/css/main.16bb4bd1.chunk.css.map": "/portfolio/static/css/main.16bb4bd1.chunk.css.map",
+    "static/media/profile-photo.jpeg": "/portfolio/static/media/profile-photo.d55cc23e.jpeg",
+    "static/media/resume.pdf": "/portfolio/static/media/resume.9eab0e5a.pdf",
+    "static/media/App.css": "/portfolio/static/media/sunset_mountains.cc312f83.jpeg"
+  }
 }
