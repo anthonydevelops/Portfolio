@@ -6,8 +6,11 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink
+  NavLink,
+  Button
 } from "reactstrap";
+import Resume from '../assets/resume.pdf'
+import '../styles/Navbar.css'
 
 export default class NavBar extends React.Component {
   constructor(props) {
@@ -30,7 +33,8 @@ export default class NavBar extends React.Component {
       <div>
         <Navbar
           className="fixed-top"
-          style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }}
+          id="nav-main"
+          style={{ backgroundColor: "#282828" }}
           dark
           expand="md"
           role="navigation"
@@ -47,6 +51,18 @@ export default class NavBar extends React.Component {
               </NavItem>
               <NavItem>
                 <NavLink href="#projects">Projects</NavLink>
+              </NavItem>
+              <NavItem id="resume">
+                <Button
+                  className="landing-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href={Resume}
+                  color="warning"
+                  size="md"
+                >
+                  <i className="solid fas fa-file-pdf fa-1x" /> Resume
+          </Button>
               </NavItem>
             </Nav>
           </Collapse>

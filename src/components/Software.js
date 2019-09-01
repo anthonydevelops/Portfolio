@@ -5,11 +5,11 @@ import { Row, Col } from "reactstrap";
 export default class Software extends React.Component {
   render() {
     return (
-      <div className="edu-content">
+      <div className="software-content">
         <div>
           <h1 id="soft-title">Software</h1>
         </div>
-        <Row className="text-center tech">
+        <Row className="tech">
           <Col className="lang no-gutters" xs="12" md="6">
             <h3 id="js">JavaScript</h3>
             <h5>
@@ -25,18 +25,17 @@ export default class Software extends React.Component {
             </h5>
           </Col>
           <Col className="lang no-gutters" xs="12" md="6">
-            <h3 id="em">Networking</h3>
+            <h3 id="em">Databases</h3>
             <h5>
-              Two years of experience in Computer Networks, Network Programming,
-              and Advanced Computer Networks through coursework and projects.
+              Two years of experience working with relational & non-relational databases
+              such as MongoDB, PostgreSQL, and MySQL.
             </h5>
           </Col>
           <Col className="lang no-gutters" xs="12" md="6">
             <h3 id="web">Web</h3>
             <h5>
               Two years of experience working on various web applications for
-              school and as fun side projects. Experience & knowledge in
-              front-end and back-end processes and workflow.
+              school, side projects, and freelance work.
             </h5>
           </Col>
         </Row>

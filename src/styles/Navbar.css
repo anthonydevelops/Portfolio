@@ -1,0 +1,9 @@
+#resume {
+    margin-left: 20px;
+}
+
+@media (max-width: 575.98px) {
+    #resume {
+        margin: 0;
+    }
+}

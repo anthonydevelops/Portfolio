@@ -1,46 +1,47 @@
 import React from "react";
 import "../styles/Landing.css";
+import Resume from '../assets/resume.pdf'
+import { Button } from 'reactstrap'
 
 export default class Landing extends React.Component {
   render() {
     return (
-      <div>
-        <div className="caption">
-          <span id="name">
-            <h1>Anthony Campos</h1>
-          </span>
-          <span id="opener">
-            <h4>
-              A software hobbyist passionate about web technologies,
-              electronics, and open source
+      <div className="caption">
+        <span id="name">
+          <h1>Anthony Campos</h1>
+        </span>
+        <span id="opener">
+          <h4>
+            A software hobbyist passionate about web technologies,
+            electronics, and open source
             </h4>
-          </span>
-          <br />
-          <a
-            className="landing-link"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://github.com/anthonydevelops"
-          >
-            <i className="brand-icons fab fa-github-square fa-3x" />
-          </a>
-          <a
-            className="landing-link"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://www.linkedin.com/in/anthonyacampos/"
-          >
-            <i className="brand-icons fab fa-linkedin fa-3x" />
-          </a>
-          <a
-            className="landing-link"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://twitter.com/anthonydevelops"
-          >
-            <i className="brand-icons fab fa-twitter-square fa-3x" />
-          </a>
-        </div>
+        </span>
+        <br />
+        <a
+          className="landing-link"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/anthonydevelops"
+        >
+          <i className="brand-icons fab fa-github-square fa-3x" />
+        </a>
+        <a
+          className="landing-link"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.linkedin.com/in/anthonyacampos/"
+        >
+          <i className="brand-icons fab fa-linkedin fa-3x" />
+        </a>
+        <a
+          className="landing-link"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://twitter.com/anthonydevelops"
+        >
+          <i className="brand-icons fab fa-twitter-square fa-3x" />
+        </a>
+
       </div>
     );
   }

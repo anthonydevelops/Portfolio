@@ -1,5 +1,10 @@
+.software-content {
+  padding: 10% 0;
+}
+
 .tech {
   margin-top: 5%;
+  text-align: center;
 }
 
 .lang {
@@ -13,15 +18,6 @@
   text-transform: uppercase;
   border-bottom: 2px solid white;
   padding-bottom: 1%;
-}
-
-@media (max-width: 575.98px) {
-  #soft-title {
-    padding-bottom: 5%;
-    font-size: 2em;
-    text-align: center;
-    font-weight: bold;
-  }
 }
 
 #js {
@@ -42,4 +38,17 @@
 #web {
   letter-spacing: 5px;
   text-transform: uppercase;
+}
+
+@media (max-width: 575.98px) {
+
+
+  #soft-title {
+    padding-bottom: 5%;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+  }
+
+
 }

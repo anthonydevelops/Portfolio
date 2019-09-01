@@ -14,20 +14,12 @@ export default class About extends React.Component {
         </div>
         <div className="col-12 col-lg-8 description">
           <p>
-            Welcome! I am an aspiring full-stack developer, electronics
-            hobbyist, and a senior computer science student at University of
-            California, Santa Cruz. In the past years, I have focused on
-            understanding the web and network programming by working on projects
-            both in school and on my own. My goal is to become better at my
-            craft and to eventually create novel solutions that will help those
-            around me in my community. I have advanced knowledge in JavaScript
-            and Golang, experience toying around with microcontrollers such as
-            Arduino or Raspberry Pi, and have built various web applications
-            such as the one you're viewing right now! Additionally, I'm
-            currently taking courses in Software Engineering, Computer
-            Architecture, and many more to follow before I graduate. I'm
-            currently applying and interviewing for various Fulltime or
-            Internship roles.
+            Hi! I'm Anthony. I'm a Freelance Web Developer and recent Computer Science graduate
+            of University of California, Santa Cruz. Currently, I'm working for a small-business
+            creating a full-stack application to help keep track of their incoming clients. On my own time
+            I'm learning more advanced topics dealing with web technologies, as well as exercising
+            and playing Pokemon Go. I'm currently applying and open to interviewing for various
+            full-time or contract positions.
           </p>
         </div>
       </div>

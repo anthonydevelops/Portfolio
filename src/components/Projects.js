@@ -12,7 +12,7 @@ export default class Projects extends React.Component {
         <Row className="project-row">
           <Col xs="12" md="4" className="myprojects">
             <h4 className="pro-titles" style={{ textAlign: "center" }}>
-              Ligato Osseus
+              <a href="https://github.com/anthonydevelops/osseus">Osseus</a>
             </h4>
             <p>
               Implementing a full-stack web application on top of CN-Infra, a
@@ -26,7 +26,7 @@ export default class Projects extends React.Component {
           </Col>
           <Col xs="12" md="4" className="myprojects">
             <h4 className="pro-titles" style={{ textAlign: "center" }}>
-              Slug Organizer
+              <a href="https://github.com/chtzou/Slug-Academic-Organizer">Slug Organizer</a>
             </h4>
             <p>
               Designed a full-stack web application for students at UC Santa
@@ -40,7 +40,7 @@ export default class Projects extends React.Component {
           </Col>
           <Col xs="12" md="4" className="myprojects">
             <h4 className="pro-titles" style={{ textAlign: "center" }}>
-              UCSC Jobs API
+              <a href="https://github.com/anthonydevelops/ucsc-jobs-api">UCSC Jobs API</a>
             </h4>
             <p>
               Built a REST API for University of California, Santa Cruz that
@@ -51,28 +51,6 @@ export default class Projects extends React.Component {
             <div style={{ textAlign: "center" }}>
               <code>Python | Golang</code>
             </div>
-          </Col>
-          <Col
-            xs="12"
-            className="myprojects"
-            style={{
-              marginTop: "5%",
-              fontStyle: "italic",
-              textAlign: "center"
-            }}
-          >
-            <h4>More in the works, stay tuned!</h4>
-          </Col>
-          <Col className="pro-button">
-            <Button
-              href="https://github.com/anthonydevelops"
-              target="_blank"
-              rel="noopener noreferrer"
-              size="lg"
-              style={{ backgroundColor: "#282828" }}
-            >
-              See more
-            </Button>
           </Col>
         </Row>
       </div>
