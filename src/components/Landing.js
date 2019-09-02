@@ -16,6 +16,7 @@ export default class Landing extends React.Component {
         </span>
         <br />
         <a
+          tabIndex="1"
           className="landing-link"
           target="_blank"
           rel="noopener noreferrer"
@@ -24,6 +25,7 @@ export default class Landing extends React.Component {
           <i className="brand-icons fab fa-github-square fa-3x" />
         </a>
         <a
+          tabIndex="2"
           className="landing-link"
           target="_blank"
           rel="noopener noreferrer"
@@ -32,6 +34,7 @@ export default class Landing extends React.Component {
           <i className="brand-icons fab fa-linkedin fa-3x" />
         </a>
         <a
+          tabIndex="3"
           className="landing-link"
           target="_blank"
           rel="noopener noreferrer"

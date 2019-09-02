@@ -25,9 +25,14 @@ html {
   color: white;
 }
 
-.software {
+.experience {
   background-color: #fd94b3;
   color: black;
+}
+
+.software {
+  background-color: #201116;
+  color: white;
 }
 
 .software,
@@ -38,8 +43,8 @@ html {
 }
 
 .projects {
-  background-color: #201116;
-  color: white;
+  background-color: #fd94b3;
+  color: black;
 }
 
 @media (max-width: 767.98px) {
@@ -49,17 +54,22 @@ html {
   }
 
   .about {
-    height: 80vh;
+    height: 90vh;
+    overflow: hidden;
+  }
+
+  .experience {
+    height: 165vh;
     overflow: hidden;
   }
 
   .software {
-    height: 130vh;
+    height: 170vh;
     overflow: hidden;
   }
 
   .projects {
-    height: 150vh;
+    height: 200vh;
     overflow: hidden;
   }
 }

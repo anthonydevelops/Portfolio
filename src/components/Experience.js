@@ -7,36 +7,38 @@ export default class Experience extends React.Component {
     return (
       <div className="exp-content">
         <div>
-          <h1 id="soft-title">Software</h1>
+          <h1 id="exp-title">Experience</h1>
         </div>
-        <Row className="tech">
-          <Col className="lang no-gutters" xs="12" md="6">
-            <h3 id="js">JavaScript</h3>
-            <h5>
-              Two years of experience designing front-end, back-end and scraping
-              components in React.js, Node.js & Puppeteer.
-            </h5>
+        <Row className="exp">
+          <Col className="role no-gutters" xs="12" md="12">
+            <h2 id="healp">Freelance Web Developer</h2>
+            <h4><i>H.E.A.L.P</i></h4>
+            <h5>Jul 2019 - Present</h5>
+            <p>
+              Designed a full-stack web application to replace H.E.A.L.P's current
+              client-tracking system, as well as created scripts to generate forms and
+              invoices based on specified data.
+            </p>
+            <ul>
+              <li>Parsed 300+ client statistics using Google Sheets API</li>
+              <li>Created a Go server & REST-ful API that connects to MongoDB </li>
+              <li>Designed a front-end using ReactJS to interact with the Go API</li>
+            </ul>
           </Col>
-          <Col className="lang no-gutters" xs="12" md="6">
-            <h3 id="py">Golang</h3>
-            <h5>
-              One year of experience implementing back-end REST-ful API's and
-              gRPC servers.
-            </h5>
-          </Col>
-          <Col className="lang no-gutters" xs="12" md="6">
-            <h3 id="em">Databases</h3>
-            <h5>
-              Two years of experience working with relational & non-relational databases
-              such as MongoDB, PostgreSQL, and MySQL.
-            </h5>
-          </Col>
-          <Col className="lang no-gutters" xs="12" md="6">
-            <h3 id="web">Web</h3>
-            <h5>
-              Two years of experience working on various web applications for
-              school, side projects, and freelance work.
-            </h5>
+          <Col className="role no-gutters" xs="12" md="12">
+            <h2 id="cisco">Software Engineer Intern</h2>
+            <h4><i>UC Santa Cruz - Baskin School of Engineering</i></h4>
+            <h5>Jan 2019 - Jun 2019</h5>
+            <p>
+              (CISCO) Implemented an open-source full-stack web application for cloud-native
+              applications that allows users to configure various plugin integrations and generate
+              Go template code.
+            </p>
+            <ul>
+              <li>Worked with various technologies such as: ReactJS, NodeJS, and Go</li>
+              <li>Separated our application into microservices using Docker and Kubernetes</li>
+              <li>Followed the Scrum/Agile framework</li>
+            </ul>
           </Col>
         </Row>
       </div>

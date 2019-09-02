@@ -21,7 +21,8 @@ img {
 
 #myPhoto {
   border-radius: 50%;
-  height: 200px;
+  height: 225px;
+  width: 225px;
 }
 
 /* Breakpoint for phones to reduce l/r padding */
@@ -35,7 +36,8 @@ img {
   }
 
   #myPhoto {
-    height: 120px;
+    height: 200px;
+    width: 200px;
   }
 }
 

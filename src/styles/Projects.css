@@ -3,46 +3,43 @@
 }
 
 #pro-header {
-  text-align: right;
+  text-align: left;
   font-size: 2.5rem;
   letter-spacing: 5px;
   text-transform: uppercase;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid black;
   padding-bottom: 1%;
 }
 
 .myprojects {
-  color: white;
-  background-color: transparent;
-  padding: 0 20px !important;
-  margin: 10px auto;
-  text-align: center;
+  text-align: left;
 }
 
 .pro-titles {
+  text-align: center;
   text-transform: uppercase;
   letter-spacing: 5px;
   font-size: 1.5em;
   padding-bottom: 3%;
 }
 
-.pro-titles > a {
-  color: #fd94b3;
-  text-decoration: none;
-}
-
-.pro-titles > a:hover {
-  color: white;
-  text-decoration: none;
-}
-
 .project-row {
   margin-top: 5%;
 }
 
-.pro-button {
-  text-align: center;
-  padding-top: 5%;
+#osseus, #portfolio {
+  background-color: #201116;
+  color: white;
+}
+
+#osseus > img {
+  display: block;
+  margin: 0 auto;
+}
+
+#portfolio > img {
+  display: block;
+  margin: 0 auto;
 }
 
 @media (max-width: 575.98px) {
@@ -54,6 +51,44 @@
   }
 
   .myprojects {
-    text-align: center;
+    text-align: left;
+  }
+
+  #osseus, #portfolio {
+    margin: 5% 0;
+  }
+
+  #osseus > img {
+    width: 325px !important;
+    height: 250px !important;
+  }
+
+  #portfolio > img {
+    width: 325px !important;
+    height: 250px !important;
+  }
+}
+
+@media (max-width: 375px) {
+  #osseus > img {
+    width: 275px !important;
+    height: 250px !important;
+  }
+
+  #portfolio > img {
+    width: 275px !important;
+    height: 250px !important;
+  }
+}
+
+@media (max-width: 321px) {
+  #osseus > img {
+    width: 225px !important;
+    height: 200px !important;
+  }
+
+  #portfolio > img {
+    width: 225px !important;
+    height: 200px !important;
   }
 }

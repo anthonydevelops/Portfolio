@@ -47,6 +47,9 @@ export default class NavBar extends React.Component {
                 <NavLink href="#about">About</NavLink>
               </NavItem>
               <NavItem>
+                <NavLink href="#experience">Experience</NavLink>
+              </NavItem>
+              <NavItem>
                 <NavLink href="#software">Software</NavLink>
               </NavItem>
               <NavItem>
@@ -54,6 +57,7 @@ export default class NavBar extends React.Component {
               </NavItem>
               <NavItem id="resume">
                 <Button
+                  aria-label="pdf"
                   id="resume-link"
                   target="_blank"
                   rel="noopener noreferrer"

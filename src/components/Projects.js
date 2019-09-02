@@ -1,5 +1,8 @@
 import React from "react";
-import { Row, Col } from "reactstrap";
+import { Row, Col, Card, CardImg, CardBody, CardTitle, CardSubtitle, CardText, Button } from "reactstrap";
+import Portfolio from "../assets/portfolio.jpeg"
+import Osseus from "../assets/osseus.jpeg"
+
 import "../styles/Projects.css";
 
 export default class Projects extends React.Component {
@@ -10,48 +13,43 @@ export default class Projects extends React.Component {
           <h1 id="pro-header">Projects</h1>
         </div>
         <Row className="project-row">
-          <Col xs="12" md="4" className="myprojects">
-            <h4 className="pro-titles">
-              <a href="https://github.com/anthonydevelops/osseus">Osseus</a>
-            </h4>
-            <p>
-              Implementing a full-stack web application on top of CN-Infra, a
-              plugin life-cycle management agent, that allows for the user to
-              configure various plugin integrations and generate Go template
-              code that processes the plugins to work together.
-            </p>
-            <div style={{ textAlign: "center" }}>
-              <code>Golang | React | Docker</code>
-            </div>
+          <Col xs="12" md="6" className="myprojects">
+            <Card id="osseus">
+              <CardImg top style={{ width: "500px", height: "250px", textAlign: "center", marginBottom: "1vh" }} src={Osseus} alt="osseus project" />
+              <CardBody>
+                <CardTitle>Osseus</CardTitle>
+                <CardSubtitle><i>Go, ReactJS, Docker, CN-Infra</i></CardSubtitle>
+                <CardText>
+                  Implemented an open-source full-stack web application for cloud-native
+                  applications that allows users to configure various plugin integrations
+                  and generate Go template code.
+                  </CardText>
+                <Button aria-label="link" style={{ backgroundColor: "#fd94b3", border: "1px solid #fd94b3" }} target="_blank"
+                  rel="noopener noreferrer" href="https://github.com/anthonydevelops/osseus" >
+                  Source Code
+                </Button>
+              </CardBody>
+            </Card>
           </Col>
-          <Col xs="12" md="4" className="myprojects">
-            <h4 className="pro-titles">
-              <a href="https://github.com/chtzou/Slug-Academic-Organizer">Slug Organizer</a>
-            </h4>
-            <p>
-              Designed a full-stack web application for students at UC Santa
-              Cruz, which allows for quarterly/yearly planning, class
-              information, and grade tracking. Used Puppeteer for scraping 1000+
-              class pages and built a REST API to handle CRUD operations.
-            </p>
-            <div style={{ textAlign: "center" }}>
-              <code>React | Node/Express | MongoDB</code>
-            </div>
+          <Col xs="12" md="6" className="myprojects">
+            <Card id="portfolio">
+              <CardImg top style={{ width: "500px", height: "250px", textAlign: "center", marginBottom: "1vh" }} src={Portfolio} alt="portfolio project" />
+              <CardBody>
+                <CardTitle>Portfolio</CardTitle>
+                <CardSubtitle><i>ReactJS, Reactstrap</i></CardSubtitle>
+                <CardText>
+                  Built a portfolio web application that shows all of my accolades so far
+                  as a software engineer. Anyone interested will be able to see a blurb about me,
+                  my experience, skills, and projects.
+                  </CardText>
+                <Button aria-label="link" style={{ backgroundColor: "#fd94b3", border: "1px solid #fd94b3" }} target="_blank"
+                  rel="noopener noreferrer" href="https://github.com/anthonydevelops/portfolio" >
+                  Source Code
+                </Button>
+              </CardBody>
+            </Card>
           </Col>
-          <Col xs="12" md="4" className="myprojects">
-            <h4 className="pro-titles">
-              <a href="https://github.com/anthonydevelops/ucsc-jobs-api">UCSC Jobs API</a>
-            </h4>
-            <p>
-              Built a REST API for University of California, Santa Cruz that
-              gathers all the latest job listings on campus and allows for
-              queries to distinguish from Job ID, workstudy, and non-workstudy.
-            </p>
-            <br />
-            <div style={{ textAlign: "center" }}>
-              <code>Python | Golang</code>
-            </div>
-          </Col>
+
         </Row>
       </div>
     );

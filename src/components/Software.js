@@ -11,31 +11,36 @@ export default class Software extends React.Component {
         </div>
         <Row className="tech">
           <Col className="lang no-gutters" xs="12" md="6">
-            <h3 id="js">JavaScript</h3>
+            <h3 className="skills">JavaScript</h3>
             <h5>
-              Two years of experience designing front-end, back-end and scraping
-              components in React.js, Node.js & Puppeteer.
+              One year of experience designing front-end, back-end and scraping
+              components in React.js, Node.js and Puppeteer. Advanced understanding
+              in JavaScript's single-threaded model, best practices, and ES6 standard
+              syntax.
             </h5>
           </Col>
           <Col className="lang no-gutters" xs="12" md="6">
-            <h3 id="py">Golang</h3>
+            <h3 className="skills">Golang</h3>
             <h5>
               One year of experience implementing back-end REST-ful API's and
-              gRPC servers.
+              gRPC servers. Strong understanding of Go development workflows,
+              structure, and concurrency model.
             </h5>
           </Col>
           <Col className="lang no-gutters" xs="12" md="6">
-            <h3 id="em">Databases</h3>
+            <h3 className="skills">Databases</h3>
             <h5>
-              Two years of experience working with relational & non-relational databases
-              such as MongoDB, PostgreSQL, and MySQL.
+              One year of experience working with relational and non-relational databases
+              such as MongoDB, PostgreSQL, and MySQL. Experience with cloud-native datastores
+              such as ETCD.
             </h5>
           </Col>
           <Col className="lang no-gutters" xs="12" md="6">
-            <h3 id="web">Web</h3>
+            <h3 className="skills">Web</h3>
             <h5>
-              Two years of experience working on various web applications for
-              school, side projects, and freelance work.
+              One year of experience working on various web applications for
+              school, side projects, and freelance work. Solid understanding of web
+              networking, security, and design.
             </h5>
           </Col>
         </Row>

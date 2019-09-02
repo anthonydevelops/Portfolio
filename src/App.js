@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "./components/Navbar";
 import Landing from "./components/Landing";
 import About from "./components/About";
+import Experience from "./components/Experience";
 import Software from "./components/Software";
 import Projects from "./components/Projects";
 import { Container } from "reactstrap";
@@ -20,6 +21,11 @@ export default class App extends React.Component {
         <div id="about" className="container-fluid about no-gutters">
           <Container>
             <About />
+          </Container>
+        </div>
+        <div id="experience" className="container-fluid experience no-gutters">
+          <Container>
+            <Experience />
           </Container>
         </div>
         <div id="software" className="container-fluid software no-gutters">
