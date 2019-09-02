@@ -73,3 +73,30 @@ html {
     overflow: hidden;
   }
 }
+
+@media (max-width: 575.98px) {
+  .main {
+    padding: 10% 0;
+    overflow: hidden;
+  }
+
+  .about {
+    height: 95vh;
+    overflow: hidden;
+  }
+
+  .experience {
+    height: 175vh;
+    overflow: hidden;
+  }
+
+  .software {
+    height: 170vh;
+    overflow: hidden;
+  }
+
+  .projects {
+    height: 205vh;
+    overflow: hidden;
+  }
+}
