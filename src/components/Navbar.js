@@ -34,7 +34,7 @@ export default class NavBar extends React.Component {
         <Navbar
           className="fixed-top"
           id="nav-main"
-          style={{ backgroundColor: "#201116" }}
+          style={{ backgroundColor: "#097DBC" }}
           dark
           expand="md"
           role="navigation"
@@ -43,9 +43,9 @@ export default class NavBar extends React.Component {
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
           <Collapse isOpen={!this.state.collapsed} navbar>
             <Nav className="ml-auto" navbar>
-              <NavItem>
+              {/* <NavItem>
                 <NavLink href="#about">About</NavLink>
-              </NavItem>
+              </NavItem> */}
               <NavItem>
                 <NavLink href="#experience">Experience</NavLink>
               </NavItem>
@@ -62,7 +62,7 @@ export default class NavBar extends React.Component {
                   target="_blank"
                   rel="noopener noreferrer"
                   href={Resume}
-                  style={{ backgroundColor: "#fd94b3", border: "1px solid #fd94b3", color: "black" }}
+                  style={{ backgroundColor: "#edf6fd", border: "1px solid #edf6fd", color: "black" }}
                   size="md"
                 >
                   <i className="solid fas fa-file-pdf fa-1x" /> Resume

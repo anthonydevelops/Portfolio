@@ -8,13 +8,13 @@ export default class About extends React.Component {
         <div className="col-12 col-lg-4 photo">
           <img
             id="myPhoto"
-            src={require("../assets/profile.jpeg")}
+            src={require("../assets/me.jpeg")}
             alt="Anthony"
           />
         </div>
         <div className="col-12 col-lg-8 description">
           <p>
-            Hi! I'm Anthony. I'm a Freelance Web Developer and recent Computer Science graduate
+            Hi! I'm Anthony. I'm a recent Computer Science graduate
             of University of California, Santa Cruz. Currently, I'm working for a small-business
             creating a full-stack application to help keep track of their incoming clients. On my own time,
             I'm learning more advanced topics dealing with web technologies, as well as exercising

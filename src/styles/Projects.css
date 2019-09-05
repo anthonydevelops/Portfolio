@@ -7,7 +7,7 @@
   font-size: 2.5rem;
   letter-spacing: 5px;
   text-transform: uppercase;
-  border-bottom: 2px solid black;
+  border-bottom: 4px solid white;
   padding-bottom: 1%;
 }
 
@@ -28,18 +28,18 @@
 }
 
 #osseus, #portfolio {
-  background-color: #201116;
-  color: white;
+  background-color: #edf6fd;
+  color: black;
 }
 
 #osseus > img {
   display: block;
-  margin: 0 auto;
+  margin: 5px auto;
 }
 
 #portfolio > img {
   display: block;
-  margin: 0 auto;
+  margin: 5px auto;
 }
 
 @media (max-width: 575.98px) {

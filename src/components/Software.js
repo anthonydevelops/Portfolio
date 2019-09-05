@@ -32,7 +32,7 @@ export default class Software extends React.Component {
             <h5>
               One year of experience working with relational and non-relational databases
               such as MongoDB, PostgreSQL, and MySQL. Experience with cloud-native datastores
-              such as ETCD.
+              such as Etcd.
             </h5>
           </Col>
           <Col className="lang no-gutters" xs="12" md="6">

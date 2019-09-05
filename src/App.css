@@ -10,9 +10,9 @@ html {
 }
 
 .main {
-  background-image: url("assets/sunset_mountains.jpeg");
   position: relative;
   height: 100vh;
+  background-image: url("assets/rocket_ship.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -21,18 +21,18 @@ html {
 .about {
   height: 50vh;
   position: relative;
-  background-color: #201116;
+  background-color: #097DBC;
   color: white;
 }
 
 .experience {
-  background-color: #fd94b3;
-  color: black;
+  background-color: #097DBC;
+  color: white;
 }
 
 .software {
-  background-color: #201116;
-  color: white;
+  background-color: #edf6fd;
+  color: black;
 }
 
 .software,
@@ -43,8 +43,8 @@ html {
 }
 
 .projects {
-  background-color: #fd94b3;
-  color: black;
+  background-color: #097DBC;
+  color: white;
 }
 
 @media (max-width: 767.98px) {

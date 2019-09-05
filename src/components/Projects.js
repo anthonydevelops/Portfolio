@@ -24,7 +24,7 @@ export default class Projects extends React.Component {
                   applications that allows users to configure various plugin integrations
                   and generate Go template code.
                   </CardText>
-                <Button aria-label="link" style={{ backgroundColor: "#fd94b3", border: "1px solid #fd94b3" }} target="_blank"
+                <Button aria-label="link" style={{ backgroundColor: "#097DBC", border: "1px solid #097DBC", color: "white" }} target="_blank"
                   rel="noopener noreferrer" href="https://github.com/anthonydevelops/osseus" >
                   Source Code
                 </Button>
@@ -42,7 +42,7 @@ export default class Projects extends React.Component {
                   as a software engineer. Anyone interested will be able to see a blurb about me,
                   my experience, skills, and projects.
                   </CardText>
-                <Button aria-label="link" style={{ backgroundColor: "#fd94b3", border: "1px solid #fd94b3" }} target="_blank"
+                <Button aria-label="link" style={{ backgroundColor: "#097DBC", border: "1px solid #097DBC", color: "white" }} target="_blank"
                   rel="noopener noreferrer" href="https://github.com/anthonydevelops/portfolio" >
                   Source Code
                 </Button>

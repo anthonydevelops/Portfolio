@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "./components/Navbar";
 import Landing from "./components/Landing";
-import About from "./components/About";
+// import About from "./components/About";
 import Experience from "./components/Experience";
 import Software from "./components/Software";
 import Projects from "./components/Projects";
@@ -18,11 +18,11 @@ export default class App extends React.Component {
             <Landing />
           </Container>
         </div>
-        <div id="about" className="container-fluid about no-gutters">
+        {/* <div id="about" className="container-fluid about no-gutters">
           <Container>
             <About />
           </Container>
-        </div>
+        </div> */}
         <div id="experience" className="container-fluid experience no-gutters">
           <Container>
             <Experience />
