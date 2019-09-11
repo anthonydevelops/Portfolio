@@ -1,22 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f1c376ce.chunk.css",
-    "main.js": "/portfolio/static/js/main.eab41bc9.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.eab41bc9.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.b60c8507.chunk.css",
+    "main.js": "/portfolio/static/js/main.a15aeef8.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.a15aeef8.chunk.js.map",
     "runtime~main.js": "/portfolio/static/js/runtime~main.f7d4dbe8.js",
     "runtime~main.js.map": "/portfolio/static/js/runtime~main.f7d4dbe8.js.map",
     "static/css/2.1e66eaca.chunk.css": "/portfolio/static/css/2.1e66eaca.chunk.css",
-    "static/js/2.49686f58.chunk.js": "/portfolio/static/js/2.49686f58.chunk.js",
-    "static/js/2.49686f58.chunk.js.map": "/portfolio/static/js/2.49686f58.chunk.js.map",
+    "static/js/2.87e1666e.chunk.js": "/portfolio/static/js/2.87e1666e.chunk.js",
+    "static/js/2.87e1666e.chunk.js.map": "/portfolio/static/js/2.87e1666e.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.3265df4b561fe1d8775a7ca78ff8dcb4.js": "/portfolio/precache-manifest.3265df4b561fe1d8775a7ca78ff8dcb4.js",
+    "precache-manifest.be7fc787740e83f26b28ea5213554dc6.js": "/portfolio/precache-manifest.be7fc787740e83f26b28ea5213554dc6.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.1e66eaca.chunk.css.map": "/portfolio/static/css/2.1e66eaca.chunk.css.map",
-    "static/css/main.f1c376ce.chunk.css.map": "/portfolio/static/css/main.f1c376ce.chunk.css.map",
+    "static/css/main.b60c8507.chunk.css.map": "/portfolio/static/css/main.b60c8507.chunk.css.map",
     "static/media/osseus.jpeg": "/portfolio/static/media/osseus.df73943e.jpeg",
     "static/media/portfolio.jpeg": "/portfolio/static/media/portfolio.c94fefd5.jpeg",
-    "static/media/profile.jpeg": "/portfolio/static/media/profile.30de195a.jpeg",
     "static/media/resume.pdf": "/portfolio/static/media/resume.9eab0e5a.pdf",
-    "static/media/App.css": "/portfolio/static/media/sunset_mountains.cc312f83.jpeg"
+    "static/media/App.css": "/portfolio/static/media/rocket_ship.e58f5119.jpeg"
   }
 }
