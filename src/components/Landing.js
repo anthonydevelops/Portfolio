@@ -27,6 +27,7 @@ export default class Landing extends React.Component {
     let devText = dev[this.state.devTextIndex % dev.length]
     return (
       <div className="landing-wrapper">
+
         <div className="caption">
           <div id="name">
             <h1>Anthony Campos</h1>
@@ -39,35 +40,6 @@ export default class Landing extends React.Component {
           </div>
           <br />
         </div>
-        {/* <div className="social-media">
-          <a
-            tabIndex="1"
-            className="landing-link"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://github.com/anthonydevelops"
-          >
-            <i className="brand-icons fab fa-github-square fa-3x" />
-          </a>
-          <a
-            tabIndex="2"
-            className="landing-link"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://www.linkedin.com/in/anthonyacampos/"
-          >
-            <i className="brand-icons fab fa-linkedin fa-3x" />
-          </a>
-          <a
-            tabIndex="3"
-            className="landing-link"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://twitter.com/anthonydevelops"
-          >
-            <i className="brand-icons fab fa-twitter-square fa-3x" />
-          </a>
-        </div> */}
       </div >
     );
   }

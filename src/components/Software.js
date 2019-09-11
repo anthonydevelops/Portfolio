@@ -6,6 +6,7 @@ export default class Software extends React.Component {
   render() {
     return (
       <div className="software-content">
+
         <div>
           <h1 id="soft-title">Software</h1>
         </div>

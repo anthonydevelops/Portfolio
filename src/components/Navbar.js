@@ -34,7 +34,7 @@ export default class NavBar extends React.Component {
         <Navbar
           className="fixed-top"
           id="nav-main"
-          style={{ backgroundColor: "#097DBC" }}
+          style={{ backgroundColor: "#4f5c79" }}
           dark
           expand="md"
           role="navigation"

@@ -11,34 +11,32 @@ import "./App.css";
 export default class App extends React.Component {
   render() {
     return (
-      <div>
+      <div className="content-wrapper">
         <NavBar />
-        <div className="container-fluid main no-gutters">
-          <Container>
-            <Landing />
-          </Container>
-        </div>
-        {/* <div id="about" className="container-fluid about no-gutters">
-          <Container>
-            <About />
-          </Container>
-        </div> */}
-        <div id="experience" className="container-fluid experience no-gutters">
-          <Container>
-            <Experience />
-          </Container>
-        </div>
-        <div id="software" className="container-fluid software no-gutters">
-          <Container>
-            <Software />
-          </Container>
-        </div>
-        <div id="projects" className="container-fluid projects no-gutters">
-          <Container>
-            <Projects />
-          </Container>
+        <div className="main no-gutters">
+          <div id="main-landing" className="container-fluid main-landing no-gutters">
+            <Container>
+              <Landing />
+            </Container>
+          </div>
+          <div id="experience" className="container-fluid experience no-gutters">
+            <Container>
+              <Experience />
+            </Container>
+          </div>
+          <div id="software" className="container-fluid software no-gutters">
+            <Container>
+              <Software />
+            </Container>
+          </div>
+          <div id="projects" className="container-fluid projects no-gutters">
+            <Container>
+              <Projects />
+            </Container>
+          </div>
         </div>
       </div>
+
     );
   }
 }
