@@ -10,14 +10,6 @@ html {
   height: 100%;
 }
 
-.particles {
-  z-index: 0 !important;
-  position: absolute !important;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-
 .main {
   background-color: #4f5c79;
 }
@@ -29,7 +21,6 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* z-index: -1 !important; */
 }
 
 .about {
@@ -42,13 +33,11 @@ html {
 #experience {
   background-color: #4f5c79;
   color: white;
-  /* z-index: 999 !important; */
 }
 
 .software {
   background-color: #edf6fd;
   color: black;
-  /* z-index: -1 !important; */
 }
 
 .software,
@@ -61,7 +50,6 @@ html {
 #projects {
   background-color: #4f5c79;
   color: white;
-  /* z-index: 999 !important; */
 }
 
 @media (max-width: 767.98px) {

@@ -21,22 +21,10 @@
 }
 
 .skills {
-  letter-spacing: 5px;
-  text-transform: uppercase;
   text-align: center;
 }
 
-#go {
-  letter-spacing: 5px;
-  text-transform: uppercase;
-}
-
-#db {
-  letter-spacing: 5px;
-  text-transform: uppercase;
-}
-
-#web {
+#go, #db, #web, .skills {
   letter-spacing: 5px;
   text-transform: uppercase;
 }
